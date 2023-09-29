@@ -1,0 +1,31 @@
+.navigation-bar {
+  display: flex;
+  padding: calc(16px + 1vmin) calc(16px + 3vmin);
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.navigation-menus {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.primary-menus {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: white;
+}
+
+.secondary-menus {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
